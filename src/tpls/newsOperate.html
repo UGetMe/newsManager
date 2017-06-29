@@ -5,7 +5,7 @@
         </div>
         <input class="btn btn-default col-md-1" type="button" value="搜索" id="searchNews">
     </div>
-    <div class="news-content">
+    <div id="news-content">
         <ul class="list-group" id="showNewsContent">
             {{each datas}}
             <li class="list-group-item">
@@ -21,10 +21,10 @@
         <!--分页导航部分-->
         <nav aria-label="Page navigation">
             <ul class="pagination" id="pageChangeDoc">
-                <%for (var i=1;i<=totalLength/5;i++) {%>
+                <%for (var i=0;i<totalLength/5;i++) {%>
                     <li>
-                        <a href="javascript:;" data-page="<%=i%>">
-                            <%=i%>
+                        <a href="javascript:;" data-page="<%=i+1%>">
+                            <%=i+1%>
                         </a>
                     </li>
                 <%}%>

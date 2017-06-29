@@ -1,0 +1,36 @@
+html,
+body {
+  width: 100%;
+  background-color: #00B4EF;
+}
+
+.container {
+  margin-top: 100px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+.container form .form-group {
+  margin-top: 30px;
+}
+.container form .form-group:first-child {
+  border-bottom: 1px solid #F0F0F0;
+}
+.container form .form-group:nth-child(2) {
+  position: relative;
+}
+.container form .form-group:nth-child(2) div.emailInfo {
+  position: absolute;
+  top: 38px;
+  border: 1px solid red;
+  display: none;
+}
+.container form .form-group > h2 {
+  font-weight: bold;
+}
+.container form .form-group:last-child .btnLogin {
+  border-radius: 30px;
+}
+.container form .form-group:last-child .btnRegister {
+  border-radius: 30px;
+}

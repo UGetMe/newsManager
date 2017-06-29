@@ -1,0 +1,42 @@
+<!--新闻页面开始-->
+<form class="form-horizontal">
+    <div class="form-group has-success has-feedback">
+        <div class="col-sm-6">
+            <div class="input-group">
+                <span class="input-group-addon">标题：</span>
+                <input type="text" class="form-control title" placeholder="title" name="title">
+            </div>
+        </div>
+    </div>
+    <div class="form-group has-success has-feedback">
+        <div class="col-sm-6">
+            <div class="input-group">
+                <span class="input-group-addon">描述：</span>
+                <input type="text" class="form-control describes" placeholder="description" name="describes">
+            </div>
+        </div>
+    </div>
+    <!--新闻选择下拉框-->
+    <div>
+        <select name="categorys" id="categarys">
+    <option value="请选择">请选择新闻类别：</option>
+    <option value="资讯新闻">资讯新闻</option>
+    <option value="财经新闻">财经新闻</option>
+    <option value="娱乐新闻">娱乐新闻</option>
+    <option value="体育新闻">体育新闻</option>
+    <option value="房产新闻">房产新闻</option>
+    <option value="科技新闻">科技新闻</option>
+    <option value="游戏新闻">游戏新闻</option>
+    <option value="军事新闻">军事新闻</option>
+</select>
+    </div>
+
+    <!--富文本编辑器-->
+    <textarea id="editor_id" name="content" style="width:700px;height:300px;">  
+    此处添加新闻内容...  
+</textarea>
+    <div class="addnewsBtn">
+        <button type="submit" class="btn btn-primary" id="submitAddNews">提交</button>
+        <button type="button" class="btn btn-primary btnReset">重置</button>
+    </div>
+</form>

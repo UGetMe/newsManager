@@ -1,0 +1,50 @@
+html,
+body {
+  width: 100%;
+  background-color: #222;
+}
+
+#wrap {
+  background-color: #222;
+}
+#wrap .top-header {
+  background-color: #222;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #000;
+  margin: 0;
+}
+#wrap .top-header > .container-fluid {
+  padding: 0 5px 0 10px;
+}
+#wrap .top-header a:hover {
+  color: white;
+}
+#wrap .top-header #personal li a:visited {
+  background-color: black;
+}
+#wrap .main {
+  margin: 0;
+  padding: 0;
+}
+#wrap .main ul.left-side {
+  padding: 0;
+  margin: 0;
+  background-color: #222;
+}
+#wrap .main ul.left-side li {
+  height: 50px;
+  line-height: 50px;
+  padding-left: 20px;
+}
+#wrap .main ul.left-side li.active {
+  color: white;
+  background-color: black;
+}
+#wrap .main ul.left-side li:hover {
+  cursor: pointer;
+}
+#wrap .main .right-side {
+  min-height: 500px;
+  background-color: white;
+}

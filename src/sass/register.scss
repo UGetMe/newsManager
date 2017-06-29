@@ -1,0 +1,40 @@
+html,
+body {
+    width: 100%;
+    background-color: #00B4EF; // box-sizing: border-box;
+}
+
+.container {
+    margin-top: 100px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    form {
+        .form-group{
+            margin-top: 30px;
+        }
+        .form-group:first-child {
+            border-bottom: 1px solid #F0F0F0;
+        }
+        .form-group:nth-child(2) {
+            position: relative;
+            div.emailInfo {
+                position: absolute;
+                top: 38px;
+                border: 1px solid red;
+                display: none;
+            }
+        }
+        .form-group>h2 {
+            font-weight: bold;
+        }
+        .form-group:last-child {
+            .btnLogin {
+                border-radius: 30px;
+            }
+            .btnRegister {
+                border-radius: 30px;
+            }
+        }
+    }
+}
